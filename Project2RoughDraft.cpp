@@ -219,9 +219,7 @@ int main() {
                         }
                     }
                     break;
-                }
             }
-
             case Display: {
                 showCards(cardsArr, cardsStatus, true);
                 break;
@@ -246,6 +244,8 @@ int main() {
                 cout << "Invalid choice. Please enter a valid choice.\n";
                 break;
             }
+
         }
            
+    }
 }
